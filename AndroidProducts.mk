@@ -23,9 +23,9 @@
 
 # inherit MI 6X aosp device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_wayne.mk
+    $(LOCAL_DIR)/lineage_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_wayne-eng \
-    aosp_wayne-userdebug \
-		aosp_wayne-user
+    lineage_wayne-eng \
+    lineage_wayne-userdebug \
+		lineage_wayne-user
