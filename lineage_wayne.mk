@@ -48,6 +48,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Density
 TARGET_SCREEN_DENSITY := 400
 
+# Sakura build type
+SAKURA_OFFICIAL := true
+
 # Maintainer Sector
 SAKURA_MAINTAINER := Markdarkness🐺
 
