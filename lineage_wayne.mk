@@ -45,6 +45,9 @@ IS_PHONE := true
 # FaceUnlock Sector
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# OP Launcher
+SAKURA_OPLAUNCHER := true
+
 # Density
 TARGET_SCREEN_DENSITY := 400
 
