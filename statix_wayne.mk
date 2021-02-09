@@ -24,8 +24,9 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
-# Inherit AOSP product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit Statix  product configuration
+$(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
@@ -37,29 +38,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Gapps Sector
-SAKURA_BUILD_TYPE := gapps
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-
-# FaceUnlock Sector
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# OP Launcher
-SAKURA_OPLAUNCHER := true
-
 # Density
 TARGET_SCREEN_DENSITY := 400
-
-# Sakura build type
-SAKURA_OFFICIAL := true
-
-# Maintainer Sector
-SAKURA_MAINTAINER := Markdarkness🐺
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_wayne
+PRODUCT_NAME := statix_wayne
 PRODUCT_DEVICE := wayne
 PRODUCT_MODEL := MI 6X
