@@ -37,11 +37,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Gapps Sector
-SAKURA_BUILD_TYPE := gapps
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-
 # FaceUnlock Sector
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
