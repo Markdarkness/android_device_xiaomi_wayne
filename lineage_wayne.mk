@@ -40,9 +40,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # FaceUnlock Sector
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Density
-TARGET_SCREEN_DENSITY := 400
-
 # Sakura build type
 SAKURA_OFFICIAL := true
 
