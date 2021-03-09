@@ -33,7 +33,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # ColtOS Stuff
 TARGET_BOOT_ANIMATION_RES := 1080x2160
 COLT_BUILD_TYPE := Official
-COLT_DEVICE_MAINTAINER := Markdarkness🐺
+
+# Device maintainer and CPU Information
+  PRODUCT_PROPERTY_OVERRIDES += \
+    ro.colt.maintainer=Markdarkness🐺 \
+    ro.colt.cpu=Snapdragon🐉660
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
